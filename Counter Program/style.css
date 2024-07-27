@@ -1,0 +1,43 @@
+.gradient-background {
+    background: linear-gradient(300deg, #8ae1c2, #e396e8, #12bebe);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+body {
+    margin: 100px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    justify-content: center;
+}
+
+
+#countLabel {
+    justify-content: center;
+    align-items: center;
+    display:block;
+    text-align: center;
+    font-size: 10em;
+    font-family: helvetica;
+    color:azure
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: hsl(214, 100%, 74%);
+    border-radius: 5px;
+    border-color:#e396e8;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.bottons:hover{
+    background-color: hsl(214, 100%, 56%)
+}
